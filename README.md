@@ -375,7 +375,7 @@ createMenu(
 
 ```ts
 
-function emailClients(clients: Client) {
+function emailClients(clients: Client[]) {
 
   clients.forEach((client) => {
 
@@ -397,7 +397,7 @@ function emailClients(clients: Client) {
 
 ```ts
 
-function emailClients(clients: Client) {
+function emailClients(clients: Client[]) {
 
   clients.filter(isActiveClient).forEach(email);
 
